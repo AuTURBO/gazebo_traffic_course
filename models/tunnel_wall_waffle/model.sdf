@@ -1,15 +1,27 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='tunnel_wall'>
+  <model name='tunnel_wall_waffle'>
     <link name='Wall_12'>
-      <pose frame=''>-0.980783 0.049883 0 0 -0 1.5708</pose>
+      <pose frame=''>-1.63568 -0.243892 0 0 -0 1.5708</pose>
+      <inertial>
+        <inertia>
+          <ixx>nan</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>nan</iyy>
+          <iyz>0</iyz>
+          <izz>nan</izz>
+        </inertia>
+        <mass>0</mass>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+      </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <visual name='Wall_12_Visual'>
         <pose frame=''>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>2 0.05 0.5</size>
+            <size>2.68372 0.060546 0.5</size>
           </box>
         </geometry>
         <material>
@@ -31,7 +43,7 @@
         <pose frame=''>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>2 0.05 0.5</size>
+            <size>2.68372 0.060546 0.5</size>
           </box>
         </geometry>
         <surface>
@@ -82,14 +94,26 @@
       </collision>
     </link>
     <link name='Wall_14'>
-      <pose frame=''>0 -0.935438 0 0 -0 0</pose>
+      <pose frame=''>-0.304035 -1.57485 0 0 -0 0</pose>
+      <inertial>
+        <inertia>
+          <ixx>nan</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>nan</iyy>
+          <iyz>0</iyz>
+          <izz>nan</izz>
+        </inertia>
+        <mass>0</mass>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+      </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <visual name='Wall_14_Visual'>
         <pose frame=''>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>2.00003 0.05 0.5</size>
+            <size>2.69628 0.05 0.5</size>
           </box>
         </geometry>
         <material>
@@ -111,7 +135,7 @@
         <pose frame=''>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>2.00003 0.05 0.5</size>
+            <size>2.69628 0.05 0.5</size>
           </box>
         </geometry>
         <surface>
@@ -162,7 +186,7 @@
       </collision>
     </link>
     <link name='Wall_16'>
-      <pose frame=''>0.943396 0.183669 0 0 -0 1.5708</pose>
+      <pose frame=''>0.940299 -0.123395 0 0 -0 1.5708</pose>
       <inertial>
         <inertia>
           <ixx>nan</ixx>
@@ -181,7 +205,7 @@
         <pose frame=''>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.53699 0.05 0.5</size>
+            <size>2.0384 0.05 0.5</size>
           </box>
         </geometry>
         <material>
@@ -203,7 +227,7 @@
         <pose frame=''>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.53699 0.05 0.5</size>
+            <size>2.0384 0.05 0.5</size>
           </box>
         </geometry>
         <surface>
@@ -254,14 +278,26 @@
       </collision>
     </link>
     <link name='Wall_17'>
-      <pose frame=''>0.15 0.915 0 0 -0 3.14159</pose>
+      <pose frame=''>-0.077985 0.91208 0 0 -0 3.14159</pose>
+      <inertial>
+        <inertia>
+          <ixx>nan</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>nan</iyy>
+          <iyz>0</iyz>
+          <izz>nan</izz>
+        </inertia>
+        <mass>0</mass>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+      </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <visual name='Wall_17_Visual'>
         <pose frame=''>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.58 0.05 0.5</size>
+            <size>2.11793 0.05 0.5</size>
           </box>
         </geometry>
         <material>
@@ -283,7 +319,7 @@
         <pose frame=''>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.58 0.05 0.5</size>
+            <size>2.11793 0.05 0.5</size>
           </box>
         </geometry>
         <surface>

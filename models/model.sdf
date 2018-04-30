@@ -2,7 +2,7 @@
 <sdf version='1.6'>
   <model name='tunnel_occ'>
     <link name='link_0_clone_clone'>
-      <pose frame=''>0.42322 -0.212034 0 0 -0 0</pose>
+      <pose frame=''>0.438398 -0.212675 0.25 0 -0 0</pose>
       <inertial>
         <mass>0.0416663</mass>
         <inertia>
@@ -15,9 +15,9 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -101,7 +101,7 @@
       </collision>
     </link>
     <link name='link_0_clone_clone_clone'>
-      <pose frame=''>-0.323729 -0.287563 0 0 -0 0</pose>
+      <pose frame=''>-0.323729 -0.287563 0.25 0 -0 0</pose>
       <inertial>
         <mass>0.0416663</mass>
         <inertia>
@@ -116,6 +116,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -199,7 +200,7 @@
       </collision>
     </link>
     <link name='link_0_clone_clone_clone_clone'>
-      <pose frame=''>-0.099492 0.499594 0 0 -0 0</pose>
+      <pose frame=''>-0.099492 0.499594 0.25 0 -0 0</pose>
       <inertial>
         <mass>0.0416663</mass>
         <inertia>
@@ -214,6 +215,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
