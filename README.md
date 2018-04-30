@@ -20,9 +20,8 @@ http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#pc-setup
 * turtlebot model3 setting
 ```bash
  $ sudo gedit ~/.bashrc
- If you want turtelbot3 waffle , write below at .bashrc 
- export TURTLEBOT3_MODEL=waffle 
- If you want turtelbot3 burger , write below at .bashrc 
+ The size of the stadium is suitable for turtlebot3 burger
+ so I recommand you set  burger as turtelbot3 burger , write below at .bashrc,  
  export TURTLEBOT3_MODEL=burger
  $ source ~/.bashrc
 ```
