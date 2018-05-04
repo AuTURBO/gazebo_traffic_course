@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='traffic_light'>
+    <model name='traffic_light_green'>
+      <pose frame=''>0.000769 -0.024461 0 0 -0 0</pose>
+      <link name='box'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.12 0.025 0.25</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.12 0.025 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://traffic_light_green/materials/scripts</uri>
+              <uri>model://traffic_light_green/materials/textures</uri>
+              <name>traffic_light_green</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name='traffic_light_red'>
+      <pose frame=''>-0.004506 0.003947 0 0 -0 0</pose>
+      <link name='box'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.12 0.025 0.25</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.12 0.025 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://traffic_light_red/materials/scripts</uri>
+              <uri>model://traffic_light_red/materials/textures</uri>
+              <name>traffic_light_red</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name='traffic_light_yellow'>
+      <pose frame=''>0.003737 0.020508 0 0 -0 0</pose>
+      <link name='box'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.12 0.025 0.25</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.12 0.025 0.25</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://traffic_light_yellow/materials/scripts</uri>
+              <uri>model://traffic_light_yellow/materials/textures</uri>
+              <name>traffic_light_yellow</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
