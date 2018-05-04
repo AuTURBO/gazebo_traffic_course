@@ -36,6 +36,5 @@ http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#pc-setup
 <img src="/picture/1.png" width="70%" height="70%">
 <img src="/picture/2.png" width="70%" height="70%">
 <img src="/picture/3.png" width="70%" height="70%">
-<iframe width="640" height="360" src="https://youtu.be/_JnlcazSEME" frameborder="0" gesture="media" allowfullscreen=""></iframe>
-<iframe width="640" height="360" src="https://youtu.be/abc1jvPWbP8" frameborder="0" gesture="media" allowfullscreen=""></iframe>
-
+[![Video Label](http://img.youtu.be/_JnlcazSEME/0.jpg)](https://youtu.be/_JnlcazSEME?t=0s)
+[![Video Label](http://img.youtu.be/abc1jvPWbP8/0.jpg)](https://youtu.be/abc1jvPWbP8?t=0s)
