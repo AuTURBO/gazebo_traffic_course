@@ -1,6 +1,6 @@
 [![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
 
-[![Video Label](http://img.youtu.be/_JnlcazSEME/0.jpg)](https://youtu.be/_JnlcazSEME?t=0s) Video Label
+[![Video Label](http://img.youtube.com/vi/_JnlcazSEME/0.jpg)](https://youtu.be/_JnlcazSEME?t=0s) Video Label
 [![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
 
 * image shot
