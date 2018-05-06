@@ -1,3 +1,20 @@
+---
+title: "Introduction"
+author: "chinsoon12"
+date: "April 10, 2016"
+output: html_document
+---
+
+<<insertHTML:[test.html]
+
+etc, etc, etc
+
+```{r, echo=FALSE}
+htmltools::includeHTML("teyoutube_linkst.html")
+```
+
+etc, etc, etc
+
 * image shot
 <img src="/picture/1.png" width="70%" height="70%">
 <img src="/picture/2.png" width="70%" height="70%">
