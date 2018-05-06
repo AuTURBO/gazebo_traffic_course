@@ -1,5 +1,5 @@
 
-# image shot click
+# image shot
 <img src="/picture/1.png" width="70%" height="70%">
 <img src="/picture/2.png" width="70%" height="70%">
 <img src="/picture/3.png" width="70%" height="70%">
