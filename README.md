@@ -1,3 +1,10 @@
+* image shot
+<img src="/picture/1.png" width="70%" height="70%">
+<img src="/picture/2.png" width="70%" height="70%">
+<img src="/picture/3.png" width="70%" height="70%">
+[traffic_light video](https://youtu.be/_JnlcazSEME).
+[traffic_bar video](https://youtu.be/abc1jvPWbP8)
+
 # Run
 I made it based on RBIZ 2017 autorace stadium\
 
@@ -33,8 +40,12 @@ http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#pc-setup
  $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
-<img src="/picture/1.png" width="70%" height="70%">
-<img src="/picture/2.png" width="70%" height="70%">
-<img src="/picture/3.png" width="70%" height="70%">
-[traffic_light video](https://youtu.be/_JnlcazSEME).
-[traffic_bar video](https://youtu.be/abc1jvPWbP8)
+# Build
+
+* plugin build 
+```bash
+ $ cd ~/catkin_ws/src/gazebo_traffic_course/gazebo_plugin_tutorial/build
+ $ cmake ../
+ $ make
+```
+
