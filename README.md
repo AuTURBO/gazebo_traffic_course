@@ -1,6 +1,7 @@
 [![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
 
-출처: http://nonamedeveloper.tistory.com/entry/마크다운-문서에-유튜브-링크-멋지게-추가하기 [noname developer]
+[![Video Label](http://img.youtu.be/_JnlcazSEME/0.jpg)](https://youtu.be/_JnlcazSEME?t=0s) Video Label
+[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
 
 * image shot
 
@@ -8,8 +9,7 @@
 <img src="/picture/1.png" width="70%" height="70%">
 <img src="/picture/2.png" width="70%" height="70%">
 <img src="/picture/3.png" width="70%" height="70%">
-[![Video Label](http://img.youtu.be/_JnlcazSEME/0.jpg)](https://youtu.be/_JnlcazSEME?t=0s) Video Label
-[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
+
 [traffic_light video](https://youtu.be/_JnlcazSEME).
 [traffic_bar video](https://youtu.be/abc1jvPWbP8)
 
