@@ -16,14 +16,16 @@ I made it based on RBIZ 2017 autorace stadium
 * First install TurtleBot3 package
 http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#pc-setup
 
-* Second install turtlebot3_simulation package
 ```bash
- $ cd ~/catkin_ws/src/
- $ git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
- $ cd ~/catkin_ws && catkin_make
+$ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-arduino ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base ros-kinetic-urdf ros-kinetic-xacro ros-kinetic-compressed-image-transport ros-kinetic-rqt-image-view ros-kinetic-gmapping ros-kinetic-navigation ros-kinetic-interactive-markers
+
+$ cd ~/catkin_ws/src/
+$ git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+$ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
+$ cd ~/catkin_ws && catkin_make
 ```
 
-* Third install turtlebot3_traffic_course package
+* Second install turtlebot3_traffic_course package
 ```bash
  $ cd ~/catkin_ws/src/
  $ git clone https://github.com/AuTURBO/gazebo_traffic_course.git
