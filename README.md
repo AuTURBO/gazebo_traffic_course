@@ -26,7 +26,7 @@ http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#pc-setup
 * Third install turtlebot3_traffic_course package
 ```bash
  $ cd ~/catkin_ws/src/
- $ git clone https://github.com/hyunoklee/turtlebot3_traffic_course.git
+ $ git clone https://github.com/AuTURBO/gazebo_traffic_course.git
  $ cd ~/catkin_ws && catkin_make
 ```
 * turtlebot model3 setting and run
