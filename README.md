@@ -31,25 +31,31 @@ $ cd ~/catkin_ws && catkin_make
  $ git clone https://github.com/AuTURBO/gazebo_traffic_course.git
  $ cd ~/catkin_ws && catkin_make
 ```
-* turtlebot model3 setting and run
+* Add Camera to turtlebot3 burger simulation model. 
 ```bash
- If you want turtlebot3 burger. Simulation lane width is 30 cm. 
- but turtlebot3 burger simulation model don't have camera. 
+ Default turtlebot3 burger simulation model don't support camera and depth camera.
+ If you wand to add camera and depth camera to turtlebot3 burger simulation model, 
+ you modify turtlebot3_burger.gazebo.xacro  and turtlebot3_burger.urdf.xacro
+ $ cp ~/catkin_ws/src/gazebo_traffic_course/burger_camera/turtlebot3_burger.gazebo.xacro ~/catkin_ws/src/turtlebot3/turtlebot3_description/urdf/
+ $ cp ~/catkin_ws/src/gazebo_traffic_course/burger_camera/turtlebot3_burger.urdf.xacro ~/catkin_ws/src/turtlebot3/turtlebot3_description/urdf/
+```
+* Run Gazebo World
+```bash
+ If you want turtlebot3 burger. Simulation lane width is 30 cm.  
  $ roslaunch turtlebot3_traffic_course course_burger.launch
 ```
 ```bash
  If you want turtlebot3 waffle. Simulation lane width is 40 cm.  
- and turtlebot3 waffle simulation model have camera and depth camera.  
  $ roslaunch turtlebot3_traffic_course course_waffle.launch
 ```
-* control run , you can contol turtlebot3 model at gazebo simulation world
+* Run control, you can contol turtlebot3 model at gazebo simulation world
 ```bash
  $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
 # Build
 
-* plugin build 
+* plugin build to control traffic light and bar.
 ```bash
  $ cd ~/catkin_ws/src/gazebo_traffic_course/gazebo_plugin_tutorial/build
  $ cmake ../
