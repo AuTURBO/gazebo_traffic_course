@@ -4,14 +4,14 @@
 <img src="/picture/2.png" width="70%" height="70%">
 <img src="/picture/3.png" width="70%" height="70%">
 
-# youtube video click
-traffic light operating  
+# youtube video
+traffic light operating , Click image to link to YouTube video.   
 [![Video Label](http://img.youtube.com/vi/_JnlcazSEME/0.jpg)](https://youtu.be/_JnlcazSEME?t=0s)  
-traffic bar operating  
+traffic bar operating , Click image to link to YouTube video.  
 [![Video Label](http://img.youtube.com/vi/abc1jvPWbP8/0.jpg)](https://youtu.be/abc1jvPWbP8?t=0s)  
 
 # Run
-I made it based on RBIZ 2017 autorace stadium\
+I made it based on RBIZ 2017 autorace stadium
 
 * First install TurtleBot3 package
 http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#pc-setup
