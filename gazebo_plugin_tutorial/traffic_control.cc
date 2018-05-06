@@ -134,14 +134,14 @@ namespace gazebo
     private: int on = 0 ;
     private: int off = 1 ;
     private: int bar_state = on;
-    private: double bar_duration = 5; // 1sec
+    private: double bar_duration = 9; // 9sec
 
     private: time_t light_set_time;
     private: int red = 0 ;
     private: int green = 1 ;
     private: int yellow = 2 ;
     private: int light_state = red;
-    private: double light_duration = 5; // 1sec
+    private: double light_duration = 9; // 9sec
 
     private: std::string light_r = "light_r";
     private: std::string light_g = "light_g";

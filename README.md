@@ -1,5 +1,17 @@
+
+# image shot
+<img src="/picture/1.png" width="70%" height="70%">
+<img src="/picture/2.png" width="70%" height="70%">
+<img src="/picture/3.png" width="70%" height="70%">
+
+# youtube video
+traffic light operating , Click image to link to YouTube video.   
+[![Video Label](http://img.youtube.com/vi/_JnlcazSEME/0.jpg)](https://youtu.be/_JnlcazSEME?t=0s)  
+traffic bar operating , Click image to link to YouTube video.  
+[![Video Label](http://img.youtube.com/vi/abc1jvPWbP8/0.jpg)](https://youtu.be/abc1jvPWbP8?t=0s)  
+
 # Run
-I made it based on RBIZ 2017 autorace stadium\
+I made it based on RBIZ 2017 autorace stadium
 
 * First install TurtleBot3 package
 http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#pc-setup
@@ -33,8 +45,12 @@ http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#pc-setup
  $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
-<img src="/picture/1.png" width="70%" height="70%">
-<img src="/picture/2.png" width="70%" height="70%">
-<img src="/picture/3.png" width="70%" height="70%">
-[traffic_light video](https://youtu.be/_JnlcazSEME).
-[traffic_bar video](https://youtu.be/abc1jvPWbP8)
+# Build
+
+* plugin build 
+```bash
+ $ cd ~/catkin_ws/src/gazebo_traffic_course/gazebo_plugin_tutorial/build
+ $ cmake ../
+ $ make
+```
+
