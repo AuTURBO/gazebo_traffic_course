@@ -1,19 +1,6 @@
----
-title: "Introduction"
-author: "chinsoon12"
-date: "April 10, 2016"
-output: html_document
----
+[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
 
-<<insertHTML:[test.html]
-
-etc, etc, etc
-
-```{r, echo=FALSE}
-htmltools::includeHTML("teyoutube_linkst.html")
-```
-
-etc, etc, etc
+출처: http://nonamedeveloper.tistory.com/entry/마크다운-문서에-유튜브-링크-멋지게-추가하기 [noname developer]
 
 * image shot
 <img src="/picture/1.png" width="70%" height="70%">
