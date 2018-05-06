@@ -2,7 +2,7 @@
 <img src="/picture/1.png" width="70%" height="70%">
 <img src="/picture/2.png" width="70%" height="70%">
 <img src="/picture/3.png" width="70%" height="70%">
-{% include youtube_link.html id="nLPppOkoPmE&feature" %}
+{% include youtube_link.html id="nLPppOkoPmE" %}
 [traffic_light video](https://youtu.be/_JnlcazSEME).
 [traffic_bar video](https://youtu.be/abc1jvPWbP8)
 
