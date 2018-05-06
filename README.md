@@ -4,6 +4,9 @@
 <img src="/picture/2.png" width="70%" height="70%">
 <img src="/picture/3.png" width="70%" height="70%">
 
+youtube link video about traffic light operating
+[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
+youtube link video about traffic bar operating
 [![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
 [traffic_light video](https://youtu.be/_JnlcazSEME).
 [traffic_bar video](https://youtu.be/abc1jvPWbP8)
