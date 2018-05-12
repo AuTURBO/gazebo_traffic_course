@@ -103,10 +103,10 @@ namespace gazebo
 	  if( light_time_diff > light_duration ){
 	  	
 	  	if(light_state==red){			
-				light_state = green ;	
-	  		}else if(light_state==green){	  		
-				light_state = yellow ;
-	  		}else if(light_state==yellow){				
+				light_state = yellow ;	
+	  		}else if(light_state==yellow){	  		
+				light_state = green ;
+	  		}else if(light_state==green){				
 				light_state = red ;	
 	  		}
 			light_set_time = cur_time;			

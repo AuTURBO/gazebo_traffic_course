@@ -255,32 +255,6 @@
         <gravity>1</gravity>
       </link>
     </model>
-    <light name='user_point_light_0' type='point'>
-      <pose frame=''>-1.53792 -1.54262 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
-    <light name='user_point_light_1' type='point'>
-      <pose frame=''>-0.330167 -0.35289 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
     <light name='user_point_light_2' type='point'>
       <pose frame=''>-0.948146 0.604519 1 0 -0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
@@ -293,48 +267,22 @@
       </attenuation>
       <cast_shadows>0</cast_shadows>
       <direction>0 0 -1</direction>
-    </light>
-    <light name='user_point_light_3' type='point'>
-      <pose frame=''>0.815362 0.405449 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
-    <light name='user_point_light_4' type='point'>
-      <pose frame=''>0.987037 -1.13546 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
-    <light name='user_point_light_5' type='point'>
-      <pose frame=''>1.75856 -1.76167 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
+    </light>    
     <light name='user_point_light_6' type='point'>
       <pose frame=''>1.63854 1.69565 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+    </light>
+    <light name='user_point_light_7' type='point'>
+      <pose frame=''>0.42  -3.31 1 0 -0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -481,27 +429,15 @@
 
       <light name='sun'>
         <pose frame=''>0 0 10 0 -0 0</pose>
-      </light>
-      <light name='user_point_light_0'>
-        <pose frame=''>-1.53792 -1.54262 1 0 -0 0</pose>
-      </light>
-      <light name='user_point_light_1'>
-        <pose frame=''>-0.330167 -0.35289 1 0 -0 0</pose>
-      </light>
+      </light>      
       <light name='user_point_light_2'>
         <pose frame=''>-0.948146 0.604519 1 0 -0 0</pose>
       </light>
-      <light name='user_point_light_3'>
-        <pose frame=''>0.815362 0.405449 1 0 -0 0</pose>
-      </light>
-      <light name='user_point_light_4'>
-        <pose frame=''>0.987037 -1.13546 1 0 -0 0</pose>
-      </light>
-      <light name='user_point_light_5'>
-        <pose frame=''>1.75856 -1.76167 1 0 -0 0</pose>
-      </light>
       <light name='user_point_light_6'>
         <pose frame=''>1.63854 1.69565 1 0 -0 0</pose>
+      </light>
+      <light name='user_point_light_7'>
+        <pose frame=''>0.42  -3.31 1 0 -0 0</pose>
       </light>
     </state>
     <gui fullscreen='0'>
